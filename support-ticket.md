@@ -52,4 +52,4 @@ sequenceDiagram
 
 
 **Question**
-If we launch this exactly as described, are there any scenarios where the data might end up being incorrect or incomplete? If so, walk me through exactly how that happens."
+If we launch this exactly as described, are there any scenarios where the data might end up being incorrect or incomplete? If so, walk me through exactly how that happens. You can use whatever tools to explain your understanding, drawing, pseudocode code... your choice
