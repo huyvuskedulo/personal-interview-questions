@@ -39,13 +39,12 @@ sequenceDiagram
     par Flow A: Attachments
         User->>App: Selects Screenshot (5MB)
         App->>File: Starts Uploading Screenshot (Tag: TICKET-99)
-        Note right of File: This takes time...
     and Flow B: Submission
         User->>App: Types text & clicks "Submit"
         App->>Ticket: Sends Ticket Data (Tag: TICKET-99)
     end
 
-    Note right of Ticket: Ticket Service receives request<br/>and immediately runs logic.
+    Note right of Ticket: Ticket Service receives request<br/>and immediately runs logic. Flow B doesn't wait for Flow A.
     Ticket->>Ticket: 1. Save Text
     Ticket->>File: 2. Query for files with TICKET-99
     Ticket->>Ticket: 3. Link found files & Finish
