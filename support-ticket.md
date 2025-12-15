@@ -49,6 +49,8 @@ sequenceDiagram
     Ticket->>Ticket: 1. Save Text
     Ticket->>File: 2. Query for files with TICKET-99
     Ticket->>Ticket: 3. Link found files & Finish
+```
+
 
 **Question**
 If we launch this exactly as described, are there any scenarios where the data might end up being incorrect or incomplete? If so, walk me through exactly how that happens."
